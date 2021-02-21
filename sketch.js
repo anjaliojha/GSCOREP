@@ -1,5 +1,5 @@
 
-//const Engine = Matter.Engine;
+const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
@@ -28,7 +28,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(0);
+  background("white");
   Engine.update(engine);
   
   drawSprites();
